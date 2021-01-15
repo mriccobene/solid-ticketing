@@ -90,17 +90,17 @@ I.	XPark compra i biglietti a lotti dal comune/municipalizzata; essi sono firmat
 
 II.	XPark utilizza i biglietti acquistati per erogare ore parcheggio
 
-    1.	il consumatore chiede un biglietto
+1.	il consumatore chiede un biglietto
 
-    2.	il consumatore effettua il pagamento così come fa oggi
+2.	il consumatore effettua il pagamento così come fa oggi
 
-    3.	XPark fornisce uno dei biglietti acquistati
+3.	XPark fornisce uno dei biglietti acquistati
 
-    4.	XPark “brucia” il biglietto, scrivendo in blockchain; per risparmiare sui costi aggrega ogni 10 minuti le bruciature in un'unica transazione su blockchain (il costo è di 0,50 euro su Ethereum, mentre è 0,00005 su un’altra blockchain pubblica, POA Network)
+4.	XPark “brucia” il biglietto, scrivendo in blockchain; per risparmiare sui costi aggrega ogni 10 minuti le bruciature in un'unica transazione su blockchain (il costo è di 0,50 euro su Ethereum, mentre è 0,00005 su un’altra blockchain pubblica, POA Network)
 
-    5.	l’addetto al parcheggio verifica non solo il biglietto (targa, orario, ecc.) ma anche la sua bruciatura (tollerando 10 min di ritardo dall’inizio di validità del biglietto)
+5.	l’addetto al parcheggio verifica non solo il biglietto (targa, orario, ecc.) ma anche la sua bruciatura (tollerando 10 min di ritardo dall’inizio di validità del biglietto)
 
-    6.	XPark comunica periodicamente (ad es. ogni giorno oppure ogni mese) le bruciature effettuate e il comune verifica in blockchain che siano state effettuate e che non ci siano ri-utilizzi dello stesso biglietto (questo step si può omettere, vedi come nel seguito) 
+6.	XPark comunica periodicamente (ad es. ogni giorno oppure ogni mese) le bruciature effettuate e il comune verifica in blockchain che siano state effettuate e che non ci siano ri-utilizzi dello stesso biglietto (questo step si può omettere, vedi come nel seguito) 
 
 ![Soluzione2](images/soluzione2.png "illustrazione della soluzione 2")
 
